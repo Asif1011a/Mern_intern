@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - S Mohammed Asif</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-brand">
+                <h2>Asif</h2>
+            </div>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="theme-toggle" id="themeToggle">
+                <i class="fas fa-moon"></i>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Hero -->
+    <section class="projects-hero">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+        </div>
+        <div class="container">
+            <h1 class="page-title">My Projects</h1>
+            <p class="page-subtitle">Innovative solutions crafted with passion and precision</p>
+            
+            <!-- Filter Buttons -->
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-filter="all">
+                    <i class="fas fa-th"></i>
+                    <span>All Projects</span>
+                </button>
+                <button class="filter-btn" data-filter="web">
+                    <i class="fas fa-code"></i>
+                    <span>Web Dev</span>
+                </button>
+                <button class="filter-btn" data-filter="ml">
+                    <i class="fas fa-brain"></i>
+                    <span>AI/ML</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid" id="projectsGrid">
+                <!-- Project 1: Disaster App -->
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-mobile-alt"></i>
+                            <i class="fas fa-route"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Asif1011a" target="_blank" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/Asif1011a" target="_blank" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Mobile AI</div>
+                        <h3>🚨 Offline Disaster Evacuation App</h3>
+                        <p>Mobile app providing evacuation routes and safety guidance without internet using local storage and ML-based risk prediction for emergency response.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Flutter</span>
+                            <span class="tech-tag">AI/ML</span>
+                            <span class="tech-tag">Local Storage</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-code-branch"></i>
+                                <span>18</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Music Player -->
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-hand-paper"></i>
+                            <i class="fas fa-music"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Asif1011a" target="_blank" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/Asif1011a" target="_blank" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">Computer Vision</div>
+                        <h3>🎵 Motion-Controlled Music Player</h3>
+                        <p>Hands-free music player controlled through computer-vision-based hand gestures with custom two-hand detection logic for accurate control.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">MediaPipe</span>
+                            <span class="tech-tag">Python</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-star"></i>
+                                <span>4.8</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-code-branch"></i>
+                                <span>14</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: SwapKart -->
+                <div class="project-card" data-category="web">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-shopping-cart"></i>
+                            <i class="fas fa-recycle"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Asif1011a" target="_blank" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/Asif1011a" target="_blank" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">E-Commerce</div>
+                        <h3>🛒 SwapKart – Used Goods Marketplace</h3>
+                        <p>Web platform for buying, selling, exchanging, and donating pre-owned items with integrated chat system promoting sustainability and circular economy.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-star"></i>
+                                <span>4.7</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-code-branch"></i>
+                                <span>22</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: JARVIS -->
+                <div class="project-card" data-category="ml">
+                    <div class="project-image">
+                        <div class="project-icon">
+                            <i class="fas fa-robot"></i>
+                            <i class="fas fa-comments"></i>
+                        </div>
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/Asif1011a" target="_blank" class="project-link" title="View Code">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="https://github.com/Asif1011a" target="_blank" class="project-link" title="Live Demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="project-status">
+                            <span class="status-badge completed">Completed</span>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <div class="project-category">AI Assistant</div>
+                        <h3>🤖 JARVIS - Personal AI Chatbot</h3>
+                        <p>An intelligent personal assistant chatbot with natural language processing capabilities, voice recognition, and smart automation features.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">NLP</span>
+                            <span class="tech-tag">Speech Recognition</span>
+                        </div>
+                        <div class="project-stats">
+                            <div class="stat">
+                                <i class="fas fa-star"></i>
+                                <span>4.9</span>
+                            </div>
+                            <div class="stat">
+                                <i class="fas fa-code-branch"></i>
+                                <span>25</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- GitHub Stats -->
+    <section class="github-section">
+        <div class="container">
+            <h2 class="section-title">Development Statistics</h2>
+            <div class="github-stats">
+                <div class="github-card">
+                    <div class="github-icon">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <div class="github-info">
+                        <h3>Public Repositories</h3>
+                        <div class="github-number">12</div>
+                    </div>
+                </div>
+                <div class="github-card">
+                    <div class="github-icon">
+                        <i class="fas fa-code-branch"></i>
+                    </div>
+                    <div class="github-info">
+                        <h3>Total Commits</h3>
+                        <div class="github-number">150+</div>
+                    </div>
+                </div>
+                <div class="github-card">
+                    <div class="github-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="github-info">
+                        <h3>Stars Earned</h3>
+                        <div class="github-number">25</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+    <script src="projects.js"></script>
+</body>
+</html>
